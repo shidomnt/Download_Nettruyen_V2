@@ -16,7 +16,7 @@ fs.readFile('./input.in', { encoding: 'utf8' }, function (err, data) {
   data.forEach(async (line) => {
     const urlManga = line.trim();
     await (async () => {
-      const rootPath = `/home/tranha/workspace/nettruyen/`;
+      const rootPath = `/mnt/e/nettruyen/`;
       const nameSaveTarget = 'information';
       try {
         console.time('>>> CRAWL TOTAL TIME');
